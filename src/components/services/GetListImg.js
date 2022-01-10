@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const BASE_URL = 'https://pixabay.com/api';
+const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '24123899-30dafe3a116d297502be19e37';
 const IMG_TYPE = 'photo';
 const IMG_ORIENT = 'horizontal';
