@@ -9,10 +9,6 @@ import Modal from 'components/Modal';
 import styles from './ImageGallery.module.css';
 
 export default class ImageGallery extends Component {
-  static propTypes = {
-    searchQuery: PropTypes.string,
-  };
-
   state = {
     images: [],
     page: 1,
@@ -127,3 +123,7 @@ export default class ImageGallery extends Component {
     }
   }
 }
+
+ImageGallery.propTypes = {
+  searchQuery: PropTypes.string,
+};
